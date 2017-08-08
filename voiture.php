@@ -4,6 +4,7 @@ require('vehicule.php');
 class Voiture extends Vehicule{
 	
 	private $marque;
+	private $kms;
 
 public  function  __construct($marque){
 	$this->marque = $marque;
